@@ -33,9 +33,10 @@ Add the File I/O Events.
 9. Explain the Events and Calls section in Intellitrace
 10. Double Click the File Save Event and use Post Mortem Debugger to step over the code.
 ![](https://tailf.blob.core.windows.net:443/github/IntelliTraceEditor/postdebug.PNG)
-11. Notice that there is a FileWatcher Changed Event in Line 94 which triggers OnFileChanged Method in Line 104:
+11. **Explain navigating with post mortem debugger**
+12. Notice that there is a FileWatcher Changed Event in Line 94 which triggers OnFileChanged Method in Line 104:
  ``private void OnFileChanged()``
-12. In Line 116 Fix the Bug by uncomment the following line:
+13. In Line 116 Fix the Bug by uncomment the following line:
 ``//if (!this.ShouldReloadFile(this.fullPath)) { return; }``
 
 
