@@ -1,14 +1,14 @@
 # IntelliTraceEditor
 Demo Application to demonstrate IntelliTrace
 
-##Walkthrough
+## Walkthrough
 
-###Prerequisite
+### Prerequisite
 - Microsoft Visual Studio Enterprise 2015
 - Microsoft .net Framework 4.5
 - txt File
 
-####Configure Intellitrace Events
+#### Configure Intellitrace Events
 In Visual Studio go to **Menu > Debug > Intellitrace > Open Intellitrace Settings**
 Navigate to: **General > Intellitrace Events**
 Add the File I/O Events.
